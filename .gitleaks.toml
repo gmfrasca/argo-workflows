@@ -1,0 +1,7 @@
+[allowlist]
+  description = "Global Allowlist"
+
+  paths = [
+    # This is just a mock secret
+    '''manifests/quick-start/base/httpbin/my-httpbin-cred-secret.yaml''',
+  ]
