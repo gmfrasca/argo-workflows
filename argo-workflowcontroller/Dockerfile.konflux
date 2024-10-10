@@ -23,8 +23,8 @@ COPY ${SOURCE_CODE}/ ./
 RUN --mount=type=cache,target=/go/pkg/mod --mount=type=cache,target=/root/.cache/go-build make dist/workflow-controller GIT_COMMIT=${GIT_COMMIT} GIT_TAG=${GIT_TAG} GIT_TREE_STATE=${GIT_TREE_STATE}
 
 ####################################################################################################
+FROM registry.redhat.io/ubi8/ubi-minimal@sha256:7583ca0ea52001562bd81a961da3f75222209e6192e4e413ee226cff97dbd48c AS workflow-controller
 
-FROM registry.redhat.io/ubi8/ubi-minimal:latest AS workflow-controller
 
 ARG CI_CONTAINER_VERSION
 
