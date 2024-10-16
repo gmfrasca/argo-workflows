@@ -1,7 +1,6 @@
 # Build arguments
 ARG SOURCE_CODE=.
-ARG CI_CONTAINER_VERSION="unknown"
-ARG CI_CONTAINER_RELEASE="unknown"
+
 # Builder args
 ARG GIT_COMMIT=unknown
 ARG GIT_TAG=unknown
