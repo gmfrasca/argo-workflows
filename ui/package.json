@@ -23,7 +23,7 @@
         "cronstrue": "^2.28.0",
         "dagre": "^0.8.5",
         "history": "^4.10.1",
-        "js-yaml": "^4.1.0",
+        "js-yaml": "^4.1.1",
         "json-merge-patch": "^0.2.3",
         "moment": "^2.29.4",
         "moment-timezone": "^0.5.43",
